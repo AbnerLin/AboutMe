@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import { Col, Card, Button, CardTitle, CardText } from 'reactstrap';
 
 import './index.css';
@@ -50,18 +50,5 @@ class Cover extends React.Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    language: state.lang.language
-  };
-};
-
-const mapDispatchToProps = dispatch => {
-  return {};
-};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Cover);
+export default Cover;
 

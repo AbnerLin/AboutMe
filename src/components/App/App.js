@@ -1,46 +1,47 @@
 import React, { Component } from 'react';
-import { createStore } from 'redux';
-import rootReducer from '../../reducers';
-import { Provider } from 'react-redux'
-import { Lang } from '../../actions/creators'
+import { translate } from 'react-i18next';
 
 import Cover from '../Cover';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-
 class App extends Component {
 
   constructor(props) {
     super(props);
-
-    this.store = createStore(rootReducer);
   }
 
   componentDidMount() {
-    this.store.dispatch(Lang.setLang('zh-TW')); // default language.
+    // pass
   }
 
   render() {
+    const { t } = this.props;
+
     return (
-      <Provider store={this.store}>
-        <div className="App">
-            <div className="container-fluid">
-              <Cover />
+      <div className="App">
+          <div className="container-fluid">
+            { t("key") }
 
+            <button
+              onClick={() => this.props.changeLanguage('en-US')}>en-US
+            </button>
+            <button
+              onClick={() => this.props.changeLanguage('zh-TW')}>zh-TW
+            </button>
+            <Cover />
 
-              <header className="App-header">
-                <h1 className="App-title">Welcome to React</h1>
-              </header>
-              <p className="App-intro">
-                To get started, edit <code>src/App.js</code> and save to reload.
-              </p>
-          </div>
+            <header className="App-header">
+              <h1 className="App-title">Welcome to React</h1>
+            </header>
+            <p className="App-intro">
+              To get started, edit <code>src/App.js</code> and save to reload.
+            </p>
         </div>
-      </Provider>
+      </div>
     );
   }
 }
 
-export default App;
+export default translate()(App);
