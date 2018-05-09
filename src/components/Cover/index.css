@@ -1,11 +1,22 @@
 div {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .head {
-  /*width: 60%;*/
+  width: 80%;
+  max-height: 240px;
+  max-width: 250px;
+  min-width: 200px;
+  border: 1px solid #dee2e6;
+  padding: 0.25rem;
+}
+
+.icon {
+  font-size: 25px;
+  margin-top: -8px;
 }
 
 #main {
   /*background-color: red;*/
+  /*height: 230px;*/
 }

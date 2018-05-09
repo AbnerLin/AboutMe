@@ -1,3 +1,16 @@
 {
-  "key": "國字國字 zh-TW"
+  "mail": "信箱",
+  "mobile": "手機",
+  "personal_info" : {
+    "title": "資訊",
+    "mail": "shaoyang0805@gmail.com",
+    "mobile": "+886 911 491788"
+  },
+  "skill": {
+    "title": "專長",
+    "skill_list": [
+      "系統分析與設計",
+      "系統開發"
+    ]
+  }
 }

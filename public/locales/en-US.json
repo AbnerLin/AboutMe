@@ -1,3 +1,19 @@
 {
-  "key": "keykeykeykey en-US"
+  "mail": "Mail",
+  "mobile": "Mobile",
+  "linkedin": "LinkedIn",
+  "personal_info" : {
+    "title": "Personal Info",
+    "mail": "shaoyang0805@gmail.com",
+    "mobile": "+886 911 491788",
+    "linkedin": "http://www.linkedin.com/in/shaoyang-lin/"
+  },
+  "skill": {
+    "title": "Skill",
+    "skill_list": [
+      "System analysis and design",
+      "System development"
+    ]
+  }
+
 }
