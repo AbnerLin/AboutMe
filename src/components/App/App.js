@@ -6,6 +6,7 @@ import { Lang } from '../../actions/creators'
 
 import Cover from '../Cover';
 
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 
@@ -25,13 +26,17 @@ class App extends Component {
     return (
       <Provider store={this.store}>
         <div className="App">
-          <Cover />
-          <header className="App-header">
-            <h1 className="App-title">Welcome to React</h1>
-          </header>
-          <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
+            <div className="container-fluid">
+              <Cover />
+
+
+              <header className="App-header">
+                <h1 className="App-title">Welcome to React</h1>
+              </header>
+              <p className="App-intro">
+                To get started, edit <code>src/App.js</code> and save to reload.
+              </p>
+          </div>
         </div>
       </Provider>
     );
