@@ -14,7 +14,7 @@ class Cover extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    console.log(nextProps.language);
+    // console.log(nextProps.language);
   }
 
   render() {
