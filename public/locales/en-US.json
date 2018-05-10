@@ -18,6 +18,11 @@
       "CI/CD",
       "Database design"
     ]
+  },
+  "resume": {
+    "title": "Resume"
+  },
+  "projects": {
+    "title": "Projects"
   }
-
 }

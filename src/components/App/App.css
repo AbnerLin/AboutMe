@@ -1,4 +1,21 @@
 .App {
-  max-width: 1400px;
+  /*max-width: 1400px;*/
   margin: auto;
+}
+
+#content {
+  /*background-color: lightgrey;*/
+  min-height: 100vh;
+}
+
+.container-fluid {
+  /*padding: 0px !important;*/
+}
+
+.section {
+  padding: 0px !important;
+}
+
+.top {
+  z-index: 999;
 }
