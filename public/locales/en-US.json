@@ -10,7 +10,7 @@
   },
   "skill": {
     "title": "Skill",
-    "skill_list": [
+    "data_list": [
       "System analysis and design",
       "System development",
       "Web development",
@@ -20,7 +20,20 @@
     ]
   },
   "resume": {
-    "title": "Resume"
+    "title": "Resume",
+    "data_list": [{
+      "type": "graduation",
+      "title": "Graduated from XXXX",
+      "subTitle": "2015/10 - 2017/08  sub title",
+      "date": "2015-01-01",
+      "contributions": ["aaa", "bbbb"]
+    },{
+      "type": "work",
+      "title": "Join to PLWeb",
+      "subTitle": "sub title",
+      "date": "2013-02-11",
+      "contributions": ["ccc", "bbbb"]
+    }]
   },
   "projects": {
     "title": "Projects"

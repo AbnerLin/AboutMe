@@ -15,5 +15,24 @@
       "系統自動化測試與佈署",
       "資料庫規劃"
     ]
+  },
+  "resume": {
+    "title": "履歷",
+    "data_list": [{
+      "type": "graduation",
+      "title": "畢業於XXX",
+      "subTitle": "2015/10 - 2017/08  子標題",
+      "date": "2015-01-01",
+      "contributions": ["嗯嗯嗯", "阿嗯啊"]
+    },{
+      "type": "work",
+      "title": "加入PLWeb",
+      "subTitle": "每天開發",
+      "date": "2015-02-11",
+      "contributions": ["好的", "試試看"]
+    }]
+  },
+  "projects": {
+    "title": "Projects"
   }
 }
