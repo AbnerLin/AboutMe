@@ -21,7 +21,7 @@ class App extends Component {
 
     return (
       <div className="App">
-          <div className="container-fluid">
+
             { t("key") }
 
             <button
@@ -38,7 +38,7 @@ class App extends Component {
             <p className="App-intro">
               To get started, edit <code>src/App.js</code> and save to reload.
             </p>
-        </div>
+
       </div>
     );
   }

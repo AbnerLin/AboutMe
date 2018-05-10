@@ -12,7 +12,11 @@
     "title": "Skill",
     "skill_list": [
       "System analysis and design",
-      "System development"
+      "System development",
+      "Web development",
+      "System testing and deployment",
+      "CI/CD",
+      "Database design"
     ]
   }
 
