@@ -4,6 +4,7 @@ import { Button, Nav, NavItem, NavLink, TabPane, TabContent } from 'reactstrap';
 
 import Cover from '../Cover';
 import Resume from '../Resume';
+import Project from '../Project';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -27,6 +28,7 @@ class App extends Component {
   componentDidMount() {
     window.addEventListener('scroll', this.pageOnScroll);
     window.addEventListener('resize', this.pageOnResize);
+
     this.calcScrollEffectInfo();
   }
 
@@ -35,6 +37,7 @@ class App extends Component {
     var targetDom = this.getElementInfo('content');
 
     this.targetScrollMaxDistance = targetDom.offsetTop - (anchorDom.offsetTop + anchorDom.height);
+    this.pageOnScroll();
   }
 
   getElementInfo(id) {
@@ -53,7 +56,6 @@ class App extends Component {
   pageOnScroll(event) {
     var anchorDom = this.getElementInfo('middle');
     var targetDom = this.getElementInfo('content');
-
     var percentOfGap = window.pageYOffset / (anchorDom.offsetTop + anchorDom.height);
 
     var targetMargin = this.targetScrollMaxDistance * percentOfGap;
@@ -118,7 +120,7 @@ class App extends Component {
               <Resume />
             </TabPane>
             <TabPane tabId="2">
-              aaa
+              <Project />
             </TabPane>
           </TabContent>
         </div>

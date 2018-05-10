@@ -7,14 +7,25 @@ import './index.css';
 
 class Resume extends React.Component {
 
+
   render() {
     const { t } = this.props;
 
+    const getIcon = (type) => {
+      switch(type) {
+        case 'graduation':
+          return <Typicons.TiMortarBoard />
+        case 'work':
+          return <Typicons.TiFlash />
+        default:
+          return <Typicons.TiStarFullOutline />
+      }
+    }
+
     return (
-      <div id="resume" className="container-fluid">
+      <div id="resume" className="container-fluid p-5">
         <Timeline>
           {
-            // t("resume.data_list") === 'object' ? console.log('!!') : console.log('??')
             Object.values(t("resume.data_list", { returnObjects: true })).map((value, index) => {
 
               const Contrubutions = () => {
@@ -30,10 +41,11 @@ class Resume extends React.Component {
               return (
                 <TimelineEvent
                   key={index}
-                  title={value.title || 'a'}
+                  title={value.title}
                   subtitle={value.subTitle}
                   subtitleStyle={{color: "#2962FF"}}
-                  createdAt={value.date}>
+                  createdAt={value.date}
+                  icon={getIcon(value.type)}>
                   <ul>
                     <Contrubutions />
                   </ul>
@@ -41,32 +53,6 @@ class Resume extends React.Component {
               );
             })
           }
-
-            <TimelineEvent title="John Doe sent a SMS"
-                           createdAt="2016-09-12"
-                           icon={<Typicons.TiMail />}
-            >
-                I received the payment for $543. Should be shipping the item within a couple of hours.
-            </TimelineEvent>
-            <TimelineEvent
-                title="You sent an email to John Doe"
-                createdAt="2016-09-11"
-                icon={<i className="material-icons md-18">email</i>}
-            >
-                Like we talked, you said that you would share the shipment details? This is an urgent order and so I
-                    am losing patience. Can you expedite the process and pls do share the details asap. Consider this a
-                    gentle reminder if you are on track already!
-            </TimelineEvent>
-
-             <TimelineEvent
-                title="You sent an email to John Doe"
-                createdAt="2015-09-11"
-                icon={<i className="material-icons md-18">email</i>}
-            >
-                Like we talked, you said that you would share the shipment details? This is an urgent order and so I
-                    am losing patience. Can you expedite the process and pls do share the details asap. Consider this a
-                    gentle reminder if you are on track already!
-            </TimelineEvent>
         </Timeline>
       </div>
     );

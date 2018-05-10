@@ -16,7 +16,7 @@ class Cover extends React.Component {
         <div id="middle" className="container-fluid p-3">
           <div className="row">
             <div className="col-md-3 d-flex justify-content-center head-block m-3 m-md-0">
-              <img src="/images/head_1.png" alt="head" className="rounded-circle head" />
+              <img src="/images/head_2.jpg" alt="head" className="rounded-circle head" />
             </div>
 
             <div className="col-md-9 d-flex justify-content-center">
