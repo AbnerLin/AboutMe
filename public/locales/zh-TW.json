@@ -42,6 +42,8 @@
     "title": "專案",
     "features_title": "功能",
     "key_techs_title": "關鍵技術",
+    "link_title": "連結",
+    "role_title": "角色",
     "data_list": [
     {
       "title": "ThirtySix",
@@ -53,6 +55,11 @@
       "key_techs":
       {
         "data_list": ["key1", "key2"]
+      },
+      "link": "http://aaaaaa.com",
+      "roles":
+      {
+        "data_list": ["Project owner", "Software engineer"]
       }
     },
     {
@@ -65,6 +72,11 @@
       "key_techs":
       {
         "data_list": ["key21", "key23"]
+      },
+      "link": "http://aaaaaa.com",
+      "roles":
+      {
+        "data_list": ["Project owner", "Software engineer"]
       }
     }]
   }
