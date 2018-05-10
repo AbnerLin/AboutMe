@@ -35,6 +35,14 @@ class Project extends React.Component {
                 return iteratorLI(value.key_techs.data_list);
               }
 
+              const Roles = () => {
+                var roles = null;
+                if(value.roles.data_list) {
+                 roles = value.roles.data_list.join(", ");
+                }
+                return roles;
+              }
+
               return (
                 <div className="col-12 m-3" key={index}>
                   <Card>
@@ -43,21 +51,30 @@ class Project extends React.Component {
                       <CardTitle></CardTitle>
                       <CardText>{value.description}</CardText>
                       <div className="row">
-                        <div className="col-6">
-                          {value.features.title}
+                        <div className="col-md-6">
+                          { t("projects.features_title") }
                           <ul>
                             <Features />
                           </ul>
                         </div>
-                        <div>
-                          {value.key_techs.title}
+                        <div className="col-md-6">
+                          { t("projects.key_techs_title") }
                           <ul>
                             <KeyTechs />
                           </ul>
                         </div>
                       </div>
                     </CardBody>
-                    <CardFooter>Footer</CardFooter>
+                    <CardFooter>
+                      <div className="row">
+                        <div className="col-md-6">
+                          { t("projects.link_title") }: <a href={value.link}>{value.link}</a>
+                        </div>
+                        <div className="col-md-6">
+                          { t("projects.role_title") }: <Roles />
+                        </div>
+                      </div>
+                    </CardFooter>
                   </Card>
                 </div>
               )

@@ -1,12 +1,14 @@
 {
   "mail": "信箱",
   "mobile": "手機",
-  "personal_info" : {
+  "personal_info":
+  {
     "title": "資訊",
     "mail": "shaoyang0805@gmail.com",
     "mobile": "+886 911 491788"
   },
-  "skill": {
+  "skill":
+  {
     "title": "專長",
     "data_list": [
       "系統分析與設計",
@@ -16,15 +18,18 @@
       "資料庫規劃"
     ]
   },
-  "resume": {
+  "resume":
+  {
     "title": "履歷",
-    "data_list": [{
+    "data_list": [
+    {
       "type": "graduation",
       "title": "畢業於XXX",
       "subTitle": "2015/10 - 2017/08  子標題",
       "date": "2015-01-01",
       "contributions": ["嗯嗯嗯", "阿嗯啊"]
-    },{
+    },
+    {
       "type": "work",
       "title": "加入PLWeb",
       "subTitle": "每天開發",
@@ -32,7 +37,35 @@
       "contributions": ["好的", "試試看"]
     }]
   },
-  "projects": {
-    "title": "Projects"
+  "projects":
+  {
+    "title": "專案",
+    "features_title": "功能",
+    "key_techs_title": "關鍵技術",
+    "data_list": [
+    {
+      "title": "ThirtySix",
+      "description": "dddddddd",
+      "features":
+      {
+        "data_list": ["aaaaa", "bbbbbbb"]
+      },
+      "key_techs":
+      {
+        "data_list": ["key1", "key2"]
+      }
+    },
+    {
+      "title": "ThirtySeven",
+      "description": "fffffffff",
+      "features":
+      {
+        "data_list": ["ddddd", "zzzz"]
+      },
+      "key_techs":
+      {
+        "data_list": ["key21", "key23"]
+      }
+    }]
   }
 }

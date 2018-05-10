@@ -33,11 +33,13 @@ class App extends Component {
   }
 
   calcScrollEffectInfo() {
-    var anchorDom = this.getElementInfo('middle');
-    var targetDom = this.getElementInfo('content');
+    setTimeout(() => {
+      var anchorDom = this.getElementInfo('middle');
+      var targetDom = this.getElementInfo('content');
 
-    this.targetScrollMaxDistance = targetDom.offsetTop - (anchorDom.offsetTop + anchorDom.height);
-    this.pageOnScroll();
+      this.targetScrollMaxDistance = targetDom.offsetTop - (anchorDom.offsetTop + anchorDom.height);
+      this.pageOnScroll();
+    }, 100);
   }
 
   getElementInfo(id) {

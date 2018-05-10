@@ -23,7 +23,7 @@ class Resume extends React.Component {
     }
 
     return (
-      <div id="resume" className="container-fluid p-5">
+      <div id="resume" className="container-fluid p-md-5">
         <Timeline>
           {
             Object.values(t("resume.data_list", { returnObjects: true })).map((value, index) => {
