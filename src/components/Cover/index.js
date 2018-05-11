@@ -19,7 +19,7 @@ class Cover extends React.Component {
             <div className="col-md-3 d-flex justify-content-center head-block m-3 m-md-0">
               <div className="row">
                 <div className="col-12 d-flex justify-content-center">
-                  <img src="/images/head_2.jpg" alt="head" className="rounded-circle head" />
+                  <img src="/images/head.jpg" alt="head" className="rounded-circle head" />
                 </div>
                 <div className="col-12 d-flex justify-content-center text-center">
                   <div>
