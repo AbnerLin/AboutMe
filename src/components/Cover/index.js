@@ -37,13 +37,15 @@ class Cover extends React.Component {
                     <CardText>
                       <Typicons.TiMail className="icon" />{ t("mail") }
                       <br />
-                      { t("personal_info.mail") }<br />
+                        <span>&emsp;&emsp;{ t("personal_info.mail") }</span>
+                      <br />
                       <Typicons.TiDevicePhone className="icon" />{ t("mobile") }
                       <br />
-                      { t("personal_info.mobile") }<br />
+                        <span>&emsp;&emsp;{ t("personal_info.mobile") }</span>
+                      <br />
                       <Typicons.TiSocialLinkedin className="icon" />{ t("linkedin") }
                       <br />
-                      { t("personal_info.linkedin") }
+                        <span>&emsp;&emsp;<a href={ t("personal_info.linkedin") }>LinkedIn</a></span>
                     </CardText>
                   </Card>
                 </Col>
