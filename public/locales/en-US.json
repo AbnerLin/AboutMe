@@ -95,7 +95,7 @@
       },
       "key_techs":
       {
-        "data_list": ["Maven", "Spring framework", "Spring-MVC", "Spring-security", "Spring-data-jpa", "WebSocket", "Bootstrap", "jQuery"]
+        "data_list": ["Maven", "Spring framework", "Spring-mvc", "Spring-security", "Spring-data-jpa", "WebSocket", "Bootstrap", "jQuery"]
       },
       "link": "https://github.com/AbnerLin/ThirtySix",
       "roles":

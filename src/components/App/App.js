@@ -87,10 +87,10 @@ class App extends Component {
       <div className="App">
         <div className="w-100 position-absolute p-1">
           <div className="d-flex justify-content-end">
-            <Button outline color="primary" className="mx-1"
+            <Button outline color="primary" className="mx-1" size="sm"
               onClick={() => this.props.changeLanguage('en-US')}>English
             </Button>
-            <Button outline color="warning" className="mx-1"
+            <Button outline color="warning" className="mx-1" size="sm"
               onClick={() => this.props.changeLanguage('zh-TW')}>繁體中文
             </Button>
           </div>
