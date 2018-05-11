@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Card, CardTitle, CardText } from 'reactstrap';
+import { Col, Card, CardTitle } from 'reactstrap';
 import { translate } from 'react-i18next';
 
 import * as Typicons from 'react-icons/lib/ti';
@@ -34,19 +34,16 @@ class Cover extends React.Component {
                 <Col md="5" className="m-2 m-md-0">
                   <Card body>
                     <CardTitle>{ t("personal_info.title") }</CardTitle>
-                    <CardText>
+                    <div>
                       <Typicons.TiMail className="icon" />{ t("mail") }
-                      <br />
-                        <span>&emsp;&emsp;{ t("personal_info.mail") }</span>
-                      <br />
+                      <div className="indent">{ t("personal_info.mail") }</div>
+
                       <Typicons.TiDevicePhone className="icon" />{ t("mobile") }
-                      <br />
-                        <span>&emsp;&emsp;{ t("personal_info.mobile") }</span>
-                      <br />
+                      <div className="indent">{ t("personal_info.mobile") }</div>
+
                       <Typicons.TiSocialLinkedin className="icon" />{ t("linkedin") }
-                      <br />
-                        <span>&emsp;&emsp;<a href={ t("personal_info.linkedin") }>LinkedIn</a></span>
-                    </CardText>
+                      <div className="indent"><a href={ t("personal_info.linkedin") }>LinkedIn</a></div>
+                    </div>
                   </Card>
                 </Col>
 
