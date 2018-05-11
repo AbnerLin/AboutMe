@@ -28,7 +28,7 @@ class Project extends React.Component {
               return (
                 <div className="col-12 m-3" key={index}>
                   <Card>
-                    <CardHeader>{value.title}</CardHeader>
+                    <CardHeader><strong>{value.title}</strong></CardHeader>
                     <CardBody>
                       <CardTitle></CardTitle>
                       <CardText>{value.description}</CardText>
