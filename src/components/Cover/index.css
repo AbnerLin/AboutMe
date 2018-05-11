@@ -1,9 +1,6 @@
-div {
-  /*border: 1px solid black;*/
-}
-
 #main {
   min-height: 100vh;
+  font-size: 1.1rem;
 }
 
 #middle {
