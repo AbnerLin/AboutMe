@@ -1,0 +1,277 @@
+{
+  "mail": "Mail",
+  "mobile": "Mobile",
+  "linkedin": "LinkedIn",
+  "personal_info":
+  {
+    "title": "Personal Info",
+    "name": "Abner Lin",
+    "job_title": "Software Engineer",
+    "mail": "shaoyang0805@gmail.com",
+    "mobile": "+886 911 491788",
+    "linkedin": "http://www.linkedin.com/in/shaoyang-lin/"
+  },
+  "skill":
+  {
+    "title": "Skill",
+    "data_list": [
+      "System analysis and design",
+      "System development",
+      "Web development",
+      "Database design",
+      "CI/CD",
+      "System testing and deployment"
+    ]
+  },
+  "resume":
+  {
+    "title": "Resume",
+    "data_list": [
+    {
+      "type": "work",
+      "title": "Department transfer",
+      "subTitle": "Java Architecture and Application LifeLifecycle Management - Software Engineer",
+      "date": "2017-07-01 - Until now",
+      "contributions": [
+        "Developed the reporting information system of R.O.C government(Taiwan) about household registration statistic.",
+        "Assisted to upgrade the  Household Registration Information System of R.O.C(Taiwan)"
+      ]
+    },
+    {
+      "type": "work",
+      "title": "Join to International Integrated Systems, Inc. (IISI) (2015/09 - 2017/06)",
+      "subTitle": "Intelligent Transportation System - Software Engineer",
+      "date": "2015-09-27",
+      "contributions": [
+        "Implemented the protocal for collecting vehicle's data from roadside control devices, including e-Tag, AVI.",
+        "Developed APIs based on Java RMI, provide vehicle's data to other services for calculating.",
+        "Developed the various vehicle traveling time algorithm against the city or road characteristics, including actual and predictive traveling time, and provide to road user via CMS(Changeable Message Signs).",
+        "Constructed system execution environment via Docker, improve the system shifting more efficiently and conveniently.",
+        "Developed the RWD website by using jQuery and Bootstrap, use to monitor traveling time of road and status of data collecting.",
+        "Developed addition information about vehicle, such as the slowest and stationary vehicle."
+      ]
+    },
+    {
+      "type": "graudation",
+      "title": "Graduated from National Yunlin University of Science and Technology (2013 - 2015)",
+      "subTitle": "Master of Information Management",
+      "date": "2013-06-31",
+      "contributions": [
+        "Department of Management Information System - Administrator of Web Server, DNS, Mail Server.",
+        "Journal of Liberal Arts and Social Sciences, Vol 13, No.2 (2017-06) - An Adaptive Programming Learning Environment.",
+        "Software Engineer of PLWeb (http://v2.plweb.org)."
+      ]
+    },
+    {
+      "type": "graduation",
+      "title": "Graduated from Chung Hua University (2009 - 2013)",
+      "subTitle": "Bachelor of Information Management",
+      "date": "2009-07-21",
+      "contributions": [
+        "Intern at Information System and Security Research Center(ISSRC).",
+        "Represented department of Management Information System for the 2012 International ICT Innovative Services Awards competition(Top 10)."
+      ]
+    }]
+  },
+  "projects":
+  {
+    "title": "Projects",
+    "features_title": "Features",
+    "key_techs_title": "Key technique",
+    "link_title": "Link",
+    "role_title": "Role",
+    "data_list": [
+    {
+      "title": "2017 ThirtySix",
+      "description": "ThirtySix is the web-base application for restaurant which can instanly monitor food delivering progress and customer dining time from seat map.",
+      "features":
+      {
+        "data_list": [
+          "Send the order.",
+          "Organize seats on map directly.",
+          "Monitoring status of restaurant, such as seat usage, customer dining time, progress of food delivering.",
+          "Every changes are instanly reflect on all screens."
+        ]
+      },
+      "key_techs":
+      {
+        "data_list": ["Maven", "Spring framework", "Spring-MVC", "Spring-security", "Spring-data-jpa", "WebSocket", "Bootstrap", "jQuery"]
+      },
+      "link": "https://github.com/AbnerLin/ThirtySix",
+      "roles":
+      {
+        "data_list": ["Project owner", "Software engineer"]
+      }
+    },
+    {
+      "title": "2017 ThirtySeven",
+      "description": "ThirtySeven provide RESTful APIs which same with ThirtySix's back end.",
+      "features":
+      {
+        "data_list": [
+          "Send the order through APIs.",
+          "Customer check in/out through APIs.",
+          "Organize furnishs position through APIs."
+        ]
+      },
+      "key_techs":
+      {
+        "data_list": [
+          "Node.js",
+          "NPM",
+          "Express",
+          "Sequelize",
+          "PostgreSQL",
+          "ES6 Promise",
+          "RESTful API"
+        ]
+      },
+      "link": "https://github.com/AbnerLin/ThirtySeven",
+      "roles":
+      {
+        "data_list": ["Project owner", "Software engineer"]
+      }
+    },
+    {
+      "title": "2018 ThirtySeven-React-Smile",
+      "description": "We develop the single page application(SPA) for operator to manage the restaurant.",
+      "features":
+      {
+        "data_list": [
+          "Integrate RESTful APIs provided by ThirtySeven.",
+          "Organize seats on map by drag and drop icon directly.",
+          "Monitoring status of restaurant, such as seat usage, customer dining time, progress of food delivering.",
+          "Every changes are instanly reflect on all screens."
+        ]
+      },
+      "key_techs":
+      {
+        "data_list": [
+          "React",
+          "Redux",
+          "NPM",
+          "Bootstrap",
+          "Axios"
+        ]
+      },
+      "link": "https://github.com/AbnerLin/ThirtySeven-React-Smile",
+      "roles":
+      {
+        "data_list": ["Project owner", "Software engineer"]
+      }
+    },
+    {
+      "title": "2017 tayal",
+      "description": "Tayal provides RESTful APIs for endpoint. The system administrator can manage metadata of music video and the user can search what they want about music video through tayal APIs. In addition, we're trying to figure out the potential music video which the user had never watched but may like.",
+      "features":
+      {
+        "data_list": [
+          "Provide RESTful APIs for endpoint, such as website.",
+          "Manage metadata of music video through APIs.",
+          "User can manage their playlist through APIs."
+        ]
+      },
+      "key_techs":
+      {
+        "data_list": [
+          "Node.js",
+          "Express",
+          "NPM",
+          "MongoDB",
+          "RESTful API"
+        ]
+      },
+      "link": "https://github.com/rockers7414/tayal",
+      "roles":
+      {
+        "data_list": ["Software engineer"]
+      }
+    },
+    {
+      "title": "2017 sylvia/syliva-admin",
+      "description": "We develop the single page application(SPA) to manage the metadata of music video. We also develop the formal SPA for user to watch the music video, and let them can access their data through their mobile device.",
+      "features":
+      {
+        "data_list": [
+          "Integrate RESTful APIs provided by tayal.",
+          "The system administrator can manage metadata of music video.",
+          "The user can watch music video and manage their playlist."
+        ]
+      },
+      "key_techs":
+      {
+        "data_list": [
+          "Angular",
+          "angular-cli",
+          "RWD",
+          "RxJS",
+          "Bootstrap"
+        ]
+      },
+      "link": "https://github.com/rockers7414/sylvia-admin",
+      "roles":
+      {
+        "data_list": ["Software engineer"]
+      }
+    },
+    {
+      "title": "2013 PLWeb",
+      "description": "PLWeb provides better support for teaching programming in computer classrooms, also can be used  as a self-learning tool.",
+      "features":
+      {
+        "data_list": [
+          "Support instructors create programming excercises conveniently.",
+          "Monitoring students learning progress and the time spent on each excercise.",
+          "Snapshots of students codes, and help the instructor to understand students difficults.",
+          "Adaptive learning system help students leanring efficiently."
+        ]
+      },
+      "key_techs":
+      {
+        "data_list": [
+          "Adaptive learning",
+          "e-learning",
+          "Java",
+          "Groovy",
+          "JNLP",
+          "jEdit",
+          "MySQL",
+          "Gradle"
+        ]
+      },
+      "link": "http://v2.plweb.org",
+      "roles":
+      {
+        "data_list": ["Software engineer"]
+      }
+    },
+    {
+      "title": "2012 iSay",
+      "description": "We Developed a website for user recording their diary by using speech, user can upload images to rich the diary. iSay also has the social feature for notifing users their friend post a new diary. iSay also has Android version.",
+      "features":
+      {
+        "data_list": [
+          "Recording diary by using speech.",
+          "Check-in location in diary.",
+          "Notifing users if their friend post a new diary."
+        ]
+      },
+      "key_techs":
+      {
+        "data_list": [
+          "PHP",
+          "Google Speech API",
+          "Google Map",
+          "Long polling",
+          "Android",
+          "MySQL"
+        ]
+      },
+      "link": " # ",
+      "roles":
+      {
+        "data_list": ["Software engineer"]
+      }
+    }]
+  }
+}
