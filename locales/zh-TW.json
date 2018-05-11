@@ -5,7 +5,7 @@
   {
     "title": "資訊",
     "name": "林紹陽",
-    "job_title": "Software Engineer",
+    "job_title": "軟體工程師",
     "mail": "shaoyang0805@gmail.com",
     "mobile": "+886 911 491788"
   },
@@ -26,7 +26,7 @@
     "data_list": [
     {
       "type": "work",
-      "title": "資拓宏宇國際股份有限公司 - 部門轉調",
+      "title": "資拓宏宇國際股份有限公司(IISI) - 部門轉調",
       "subTitle": "Java架構與ALM組 - 軟體工程師",
       "date": "2017-07-01 - Until now",
       "contributions": [
@@ -61,8 +61,8 @@
     },
     {
       "type": "graudation",
-      "title": "Graduated from National Yunlin University of Science and Technology (2013 - 2015)",
-      "subTitle": "Master of Information Management",
+      "title": "畢業於國立雲林科技大學 資訊管理所 (2013 - 2015)",
+      "subTitle": "碩士畢業",
       "date": "2013-06-31",
       "contributions": [
         "資訊管理學系 - Web Server, DNS, Mail Server 系統管理員。",
@@ -72,8 +72,8 @@
     },
     {
       "type": "graduation",
-      "title": "Graduated from Chung Hua University (2009 - 2013)",
-      "subTitle": "Bachelor of Information Management",
+      "title": "畢業於中華大學 資訊管理系 (2009 - 2013)",
+      "subTitle": "學士畢業",
       "date": "2009-07-21",
       "contributions": [
         "實習於資訊規劃暨安全研究中心(ISSRC)。",
@@ -103,7 +103,7 @@
       },
       "key_techs":
       {
-        "data_list": ["Maven", "Spring framework", "Spring-MVC", "Spring-security", "Spring-data-jpa", "WebSocket", "Bootstrap", "jQuery"]
+        "data_list": ["Maven", "Spring framework", "Spring-mvc", "Spring-security", "Spring-data-jpa", "WebSocket", "Bootstrap", "jQuery"]
       },
       "link": "https://github.com/AbnerLin/ThirtySix",
       "roles":
@@ -136,7 +136,7 @@
       "link": "https://github.com/AbnerLin/ThirtySeven",
       "roles":
       {
-        "data_list": ["Project owner", "Software engineer"]
+        "data_list": ["專案擁有者", "軟體工程師"]
       }
     },
     {
@@ -145,7 +145,7 @@
       "features":
       {
         "data_list": [
-          "整合ThirtySeven的RESTful APIs",
+          "整合ThirtySeven的RESTful APIs。",
           "透過介面上的拖拉，調整用餐座位位置。",
           "監控所有餐廳資訊，包括餐點資訊、顧客資訊。",
           "所有資訊的更動，將直接更新於所有操作者的系統畫面。"
@@ -164,7 +164,7 @@
       "link": "https://github.com/AbnerLin/ThirtySeven-React-Smile",
       "roles":
       {
-        "data_list": ["Project owner", "Software engineer"]
+        "data_list": ["專案擁有者", "軟體工程師"]
       }
     },
     {
@@ -191,7 +191,7 @@
       "link": "https://github.com/rockers7414/tayal",
       "roles":
       {
-        "data_list": ["Software engineer"]
+        "data_list": ["軟體工程師"]
       }
     },
     {
@@ -218,12 +218,12 @@
       "link": "https://github.com/rockers7414/sylvia-admin",
       "roles":
       {
-        "data_list": ["Software engineer"]
+        "data_list": ["軟體工程師"]
       }
     },
     {
       "title": "2013 PLWeb",
-      "description": "PLWeb是一個提供講師教學程式語言的工具，同時也是學生自我學習平台。",
+      "description": "PLWeb是一個提供講師教學程式語言的工具，同時也是學生自我學習的平台。",
       "features":
       {
         "data_list": [
@@ -248,7 +248,7 @@
       "link": "http://v2.plweb.org",
       "roles":
       {
-        "data_list": ["Software engineer"]
+        "data_list": ["軟體工程師"]
       }
     },
     {
@@ -276,7 +276,7 @@
       "link": " # ",
       "roles":
       {
-        "data_list": ["Software engineer"]
+        "data_list": ["軟體工程師"]
       }
     }]
   }
