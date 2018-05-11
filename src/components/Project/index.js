@@ -1,7 +1,7 @@
 import React from 'react';
 import { translate } from 'react-i18next';
-import { Card, Col, CardHeader, CardFooter, CardBody, CardTitle, CardText } from 'reactstrap';
-
+import { Card, CardHeader, CardFooter, CardBody, CardTitle, CardText } from 'reactstrap';
+import List from '../List';
 import './index.css';
 
 class Project extends React.Component {
@@ -16,24 +16,6 @@ class Project extends React.Component {
 
           {
             Object.values(t("projects.data_list", {returnObjects: true})).map((value, index) => {
-
-              const iteratorLI = (obj) => {
-                var iter = null;
-                if(obj) {
-                  iter = obj.map((value, index) => {
-                    return(<li key={index}>{value}</li>)
-                  });
-                }
-                return iter;
-              }
-
-              const Features = () => {
-                return iteratorLI(value.features.data_list);
-              }
-
-              const KeyTechs = () => {
-                return iteratorLI(value.key_techs.data_list);
-              }
 
               const Roles = () => {
                 var roles = null;
@@ -53,15 +35,11 @@ class Project extends React.Component {
                       <div className="row">
                         <div className="col-md-6">
                           { t("projects.features_title") }
-                          <ul>
-                            <Features />
-                          </ul>
+                          <List dataList={value.features.data_list} />
                         </div>
                         <div className="col-md-6">
                           { t("projects.key_techs_title") }
-                          <ul>
-                            <KeyTechs />
-                          </ul>
+                          <List dataList={value.key_techs.data_list} />
                         </div>
                       </div>
                     </CardBody>
@@ -80,7 +58,6 @@ class Project extends React.Component {
               )
             })
           }
-
         </div>
       </div>
     )

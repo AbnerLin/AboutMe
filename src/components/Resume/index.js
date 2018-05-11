@@ -2,6 +2,7 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
 import * as Typicons from 'react-icons/lib/ti';
+import List from '../List';
 
 import './index.css';
 
@@ -27,17 +28,6 @@ class Resume extends React.Component {
         <Timeline>
           {
             Object.values(t("resume.data_list", { returnObjects: true })).map((value, index) => {
-
-              const Contrubutions = () => {
-                var contributions = null;
-                if(value.contributions) {
-                  contributions = value.contributions.map((value, index) => {
-                    return (<li key={index}>{value}</li>);
-                  });
-                }
-                return contributions;
-              }
-
               return (
                 <TimelineEvent
                   key={index}
@@ -46,9 +36,7 @@ class Resume extends React.Component {
                   subtitleStyle={{color: "#2962FF"}}
                   createdAt={value.date}
                   icon={getIcon(value.type)}>
-                  <ul>
-                    <Contrubutions />
-                  </ul>
+                  <List dataList={value.contributions} />
                 </TimelineEvent>
               );
             })

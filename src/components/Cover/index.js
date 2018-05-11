@@ -5,6 +5,7 @@ import { translate } from 'react-i18next';
 import * as Typicons from 'react-icons/lib/ti';
 import './index.css';
 
+import List from '../List';
 
 class Cover extends React.Component {
 
@@ -41,13 +42,7 @@ class Cover extends React.Component {
                 <Col md="7" className="m-2 m-md-0">
                   <Card body>
                     <CardTitle>{ t("skill.title") }</CardTitle>
-                      <ul>
-                        {
-                          Object.values(t("skill.data_list", { returnObjects: true })).map((value, index) =>
-                            <li key={index}>{value}</li>
-                          )
-                        }
-                      </ul>
+                      <List dataList={t("skill.data_list", { returnObjects: true })} />
                   </Card>
                 </Col>
               </div>
