@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Card, CardTitle } from 'reactstrap';
+import { Col, Card, CardTitle, Row, Container } from 'reactstrap';
 import { translate } from 'react-i18next';
 
 import * as Typicons from 'react-icons/lib/ti';
@@ -14,23 +14,23 @@ class Cover extends React.Component {
 
     return (
       <div id="main" className="d-flex align-items-center">
-        <div id="middle" className="container-fluid p-3">
-          <div className="row">
-            <div className="col-md-3 d-flex justify-content-center head-block m-3 m-md-0">
-              <div className="row">
-                <div className="col-12 d-flex justify-content-center">
+        <Container fluid={true} id="middle" className="p-3">
+          <Row>
+            <Col md="3" className="d-flex justify-content-center head-block m-3 m-md-0">
+              <Row>
+                <Col sm="12" className="d-flex justify-content-center">
                   <img src="images/head.jpg" alt="head" className="rounded-circle head" />
-                </div>
-                <div className="col-12 d-flex justify-content-center text-center">
+                </Col>
+                <Col sm="12" className="d-flex justify-content-center text-center">
                   <div>
                   <h4> { t("personal_info.name") } </h4>
                   <h5> { t("personal_info.job_title") } </h5>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-9 d-flex justify-content-center">
-              <div className="row w-100 d-flex align-items-center">
+                </Col>
+              </Row>
+            </Col>
+            <Col md="9" className="d-flex justify-content-center">
+              <Row className="w-100 d-flex align-items-center">
                 <Col md="5" className="m-2 m-md-0">
                   <Card body>
                     <CardTitle>{ t("personal_info.title") }</CardTitle>
@@ -53,10 +53,10 @@ class Cover extends React.Component {
                       <List dataList={t("skill.data_list", { returnObjects: true })} />
                   </Card>
                 </Col>
-              </div>
-            </div>
-          </div>
-        </div>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
       </div>
     )
   }

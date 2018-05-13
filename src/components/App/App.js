@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { translate } from 'react-i18next';
-import { Button, Nav, NavItem, NavLink, TabPane, TabContent } from 'reactstrap';
+import { Button, Nav, NavItem, NavLink, TabPane, TabContent, Container } from 'reactstrap';
 
 import Cover from '../Cover';
 import Resume from '../Resume';
@@ -98,7 +98,7 @@ class App extends Component {
 
         <Cover changeLanguage={this.props.changeLanguage} />
 
-        <div id="content" className="p-3 container-fluid">
+        <Container fluid={true} id="content" className="p-3">
           <Nav tabs>
             <NavItem>
               <NavLink
@@ -125,7 +125,7 @@ class App extends Component {
               <Project />
             </TabPane>
           </TabContent>
-        </div>
+        </Container>
       </div>
     );
   }
