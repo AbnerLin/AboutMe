@@ -1,5 +1,6 @@
 import React from 'react';
 import { translate } from 'react-i18next';
+import { Row, Container, Card, CardTitle } from 'reactstrap';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
 import * as Typicons from 'react-icons/lib/ti';
 import List from '../List';
@@ -24,7 +25,13 @@ class Resume extends React.Component {
     }
 
     return (
-      <div id="resume" className="container-fluid p-md-5">
+      <Container fluid={true} id="resume" className="p-md-5">
+        <Row className="px-md-3 pb-md-3">
+          <Card body>
+            <CardTitle>{t("experience.title")}</CardTitle>
+            <List dataList={t("experience.data_list", { returnObjects: true })} />
+          </Card>
+        </Row>
         <Timeline>
           {
             Object.values(t("resume.data_list", { returnObjects: true })).map((value, index) => {
@@ -42,7 +49,7 @@ class Resume extends React.Component {
             })
           }
         </Timeline>
-      </div>
+      </Container>
     );
   }
 }

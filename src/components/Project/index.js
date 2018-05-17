@@ -2,6 +2,7 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import { Card, CardHeader, CardFooter, CardBody, CardTitle, CardText, Row, Col } from 'reactstrap';
 import List from '../List';
+import BadgeList from '../BadgeList';
 import './index.css';
 
 class Project extends React.Component {
@@ -16,14 +17,6 @@ class Project extends React.Component {
 
           {
             Object.values(t("projects.data_list", {returnObjects: true})).map((value, index) => {
-
-              const Roles = () => {
-                var roles = null;
-                if(value.roles.data_list) {
-                 roles = value.roles.data_list.join(", ");
-                }
-                return roles;
-              }
 
               return (
                 <Col sm="12" className="m-3" key={index}>
@@ -46,10 +39,10 @@ class Project extends React.Component {
                     <CardFooter>
                       <Row>
                         <Col md="6">
-                          { t("projects.link_title") }: <a href={value.link}>{value.link}</a>
+                          { t("projects.link_title") }： <a href={value.link}>{value.link}</a>
                         </Col>
                         <Col md="6">
-                          { t("projects.role_title") }: <Roles />
+                          <BadgeList title={ t("projects.role_title") } dataList={value.roles.data_list} />
                         </Col>
                       </Row>
                     </CardFooter>

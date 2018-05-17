@@ -1,3 +1,8 @@
 #resume {
   font-size: 1.5rem;
 }
+
+#resume .card {
+  font-size: 1.2rem !important;
+  min-height: 0px;
+}

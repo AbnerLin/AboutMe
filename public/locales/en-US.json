@@ -23,6 +23,27 @@
       "System testing and deployment"
     ]
   },
+  "tool": {
+    "title": "Tools",
+    "Farmiliar" :{
+      "title": "Farmiliar with",
+      "data_list": ["Java", "Java RMI", "Spring", "Spring Data JPA", "Spring MVC", "Hibernate", "Javascript", "Git", "Node.js", "React", "Redux", "jQuery", "Bootstrap", "RESTful API", "OOP"]
+    },
+    "Knowledge" :{
+      "title": "Knowledge of",
+      "data_list": ["Angular", "Docker", "Spring Security", "groovy", "python", "php"]
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "data_list": [
+      "5+ years experience in full stake development.",
+      "5+ years experience in building reusable component and modularization desing.",
+      "Experience with Scrum.",
+      "Experience with service oriented architecture.",
+      "Experience with CI/CD systems."
+    ]
+  },
   "resume":
   {
     "title": "Resume",
@@ -37,7 +58,7 @@
         "SQL tuning for improving the query performance.",
         "Code review to increase product stability.",
         "Developed the reporting information system of R.O.C government(Taiwan) about household registration statistic.",
-        "Assisted to upgrade the  Household Registration Information System of R.O.C(Taiwan)."
+        "Assisted to upgrade the  Household Registration Information System of R.O.C(Taiwan)"
       ]
     },
     {
@@ -78,7 +99,7 @@
   },
   "projects":
   {
-    "title": "Side Projects",
+    "title": "Projects",
     "features_title": "Features",
     "key_techs_title": "Key technique",
     "link_title": "Link",
