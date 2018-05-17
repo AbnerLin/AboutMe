@@ -25,8 +25,8 @@
   },
   "tool": {
     "title": "Tools",
-    "Farmiliar" :{
-      "title": "Farmiliar with",
+    "Familiar" :{
+      "title": "Familiar with",
       "data_list": ["Java", "Java RMI", "Spring", "Spring Data JPA", "Spring MVC", "Hibernate", "Javascript", "Git", "Node.js", "React", "Redux", "jQuery", "Bootstrap", "RESTful API", "OOP"]
     },
     "Knowledge" :{
@@ -37,8 +37,8 @@
   "experience": {
     "title": "Experience",
     "data_list": [
-      "5+ years experience in full stake development.",
-      "5+ years experience in building reusable component and modularization desing.",
+      "5+ years experience in full stack development.",
+      "5+ years experience in building reusable component and modularization design.",
       "Experience with Scrum.",
       "Experience with service oriented architecture.",
       "Experience with CI/CD systems."
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "type": "graudation",
+      "type": "graduation",
       "title": "Graduated from National Yunlin University of Science and Technology (2013 - 2015)",
       "subTitle": "Master of Information Management",
       "date": "2013-06-31",

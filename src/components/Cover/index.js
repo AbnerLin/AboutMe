@@ -56,7 +56,7 @@ class Cover extends React.Component {
                   <Col sm="12">
                     <Card body className="unlimit-height m-2 mx-md-0 mt-md-4 mb-md-1 ">
                       <CardTitle>{ t("tool.title") }</CardTitle>
-                      <BadgeList title={t("tool.Farmiliar.title")} dataList={t("tool.Farmiliar.data_list", { returnObjects: true })} color="info" />
+                      <BadgeList title={t("tool.Familiar.title")} dataList={t("tool.Familiar.data_list", { returnObjects: true })} color="info" />
                       <BadgeList title={t("tool.Knowledge.title")} dataList={t("tool.Knowledge.data_list", { returnObjects: true })} color="info" />
                     </Card>
                   </Col>

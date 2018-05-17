@@ -22,7 +22,7 @@
   },
   "tool": {
     "title": "擅長工具",
-    "Farmiliar" :{
+    "Familiar" :{
       "title": "熟悉",
       "data_list": ["Java", "Java RMI", "Spring", "Spring Data JPA", "Spring MVC", "Hibernate", "Javascript", "Git", "Node.js", "React", "Redux", "jQuery", "Bootstrap", "RESTful API", "OOP"]
     },
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "type": "graudation",
+      "type": "graduation",
       "title": "畢業於國立雲林科技大學 資訊管理所 (2013 - 2015)",
       "subTitle": "碩士畢業",
       "date": "2013-06-31",
@@ -251,7 +251,7 @@
       "features":
       {
         "data_list": [
-          "支援講師更方便、有效的編輯課程練習題目。",
+          "支援講師更方便、有效率的編輯課程練習題目。",
           "監控所有學生的學習狀況，以及練習題目所使用的時間，同時快取每位學生答題的程式碼，講師可透過以上資訊，更有效的了解每位學生的學習狀況。",
           "提供適性化學習，讓學生在自學時，能夠更有效的學習，並且節省大量時間，提高學習效率。"
         ]
