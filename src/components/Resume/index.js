@@ -26,7 +26,7 @@ class Resume extends React.Component {
 
     return (
       <Container fluid={true} id="resume" className="p-md-5">
-        <Row className="px-md-3 pb-md-3">
+        <Row className="px-md-3 pb-md-3 py-3 py-md-0">
           <Card body>
             <CardTitle>{t("experience.title")}</CardTitle>
             <List dataList={t("experience.data_list", { returnObjects: true })} />
