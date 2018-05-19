@@ -67,7 +67,7 @@
       "subTitle": "Intelligent Transportation System - Software Engineer",
       "date": "2015-09-27",
       "contributions": [
-        "Implemented the protocal for collecting vehicle's data from roadside control devices, including e-Tag, AVI.",
+        "Implemented the protocol for collecting vehicle's data from roadside control devices, including e-Tag, AVI.",
         "Developed APIs based on Java RMI, provide vehicle's data to other services for calculating.",
         "Developed the various vehicle traveling time algorithm against the city or road characteristics, including actual and predictive traveling time, and provide to road user via CMS(Changeable Message Signs).",
         "Constructed system execution environment via Docker, improve the system shifting more efficiently and conveniently.",
