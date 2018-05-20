@@ -107,7 +107,7 @@
     "data_list": [
     {
       "title": "2017 ThirtySix",
-      "description": "ThirtySix is the web-base application for restaurant which can instantly monitor food delivering progress and customer dining time from seat map.",
+      "description": "ThirtySix is the web based application for restaurant which can instantly monitor food delivering progress and customer dining time from seat map.",
       "features":
       {
         "data_list": [
@@ -135,7 +135,7 @@
         "data_list": [
           "Send the order through APIs.",
           "Customer check in/out through APIs.",
-          "Organize furnishs position through APIs."
+          "Organize furnishes position through APIs."
         ]
       },
       "key_techs":
@@ -212,7 +212,7 @@
       }
     },
     {
-      "title": "2017 sylvia/syliva-admin",
+      "title": "2017 sylvia/sylvia-admin",
       "description": "We develop the single page application(SPA) to manage the metadata of music video. We also develop the formal SPA for user to watch the music video, and let them can access their data through their mobile device.",
       "features":
       {
@@ -244,10 +244,10 @@
       "features":
       {
         "data_list": [
-          "Support instructors create programming excercises conveniently.",
-          "Monitoring students learning progress and the time spent on each excercise.",
-          "Snapshots of students codes, and help the instructor to understand students difficults.",
-          "Adaptive learning system help students leanring efficiently."
+          "Support instructors create programming exercises conveniently.",
+          "Monitoring students learning progress and the time spent on each exercise.",
+          "Snapshots of students codes, and help the instructor to understand students difficulties.",
+          "Adaptive learning system help students learning efficiently."
         ]
       },
       "key_techs":
@@ -271,13 +271,13 @@
     },
     {
       "title": "2012 iSay",
-      "description": "We Developed a website for user recording their diary by using speech, user can upload images to rich the diary. iSay also has the social feature for notifing users their friend post a new diary. iSay also has Android version.",
+      "description": "We Developed a website for user recording their diary by using speech, user can upload images to rich the diary. iSay also has the social feature for notifying users their friend post a new diary. iSay also has Android version.",
       "features":
       {
         "data_list": [
           "Recording diary by using speech.",
           "Check-in location in diary.",
-          "Notifing users if their friend post a new diary."
+          "Notifying users if their friend post a new diary."
         ]
       },
       "key_techs":
