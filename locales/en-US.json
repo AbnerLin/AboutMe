@@ -70,7 +70,7 @@
         "Developed the various vehicle traveling time algorithm against the city or road characteristics, including actual and predictive traveling time, and provide to road user via CMS(Changeable Message Signs).",
         "Constructed system execution environment via Docker, improve the system shifting more efficiently and conveniently.",
         "Developed the RWD website by using jQuery and Bootstrap, use to monitor traveling time of road and status of data collecting.",
-        "Developed addition information about vehicle, such as the slowest and stationary vehicle."
+        "Developed additional information about vehicle, such as the slowest and stationary vehicle."
       ]
     },
     {
