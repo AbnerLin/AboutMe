@@ -47,6 +47,18 @@
     "data_list": [
     {
       "type": "work",
+      "title": "Join to Pentium Network",
+      "subTitle": "Platform backend - Platform Software Engineer",
+      "date": "2018-08-15 - Until now",
+      "contributions": [
+        "Developing various RESTful API based on OpenFaas.",
+        "Building OGM in Nodejs.",
+        "Developing framework and Refactoring source code for improving the quality of source code, including readable, maintainable.",
+        "Writing development guide for reducing development time and increase productivity for new hire."
+      ]
+    },
+    {
+      "type": "work",
       "title": "Department transfer",
       "subTitle": "Java Architecture and Application Lifecycle Management - Software Engineer",
       "date": "2017-07-01 - Until now",
