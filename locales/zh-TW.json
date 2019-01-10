@@ -16,7 +16,6 @@
       "系統分析與設計",
       "系統開發",
       "網頁開發",
-      "系統自動化測試與佈署",
       "資料庫規劃"
     ]
   },
@@ -24,7 +23,7 @@
     "title": "擅長工具",
     "Familiar" :{
       "title": "熟悉",
-      "data_list": ["Java", "Java RMI", "Spring", "Spring Data JPA", "Spring MVC", "Hibernate", "Javascript", "Git", "Node.js", "React", "Redux", "jQuery", "Bootstrap", "RESTful API", "OOP"]
+      "data_list": ["Node.js","Java", "Java RMI", "Spring", "Spring Data JPA", "Spring MVC", "Hibernate", "Javascript", "Git", "NPM", "React", "Redux", "jQuery", "Bootstrap", "RESTful API", "OOP"]
     },
     "Knowledge" :{
       "title": "略懂",

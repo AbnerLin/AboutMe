@@ -19,7 +19,6 @@
       "System development",
       "Web development",
       "Database design",
-      "CI/CD",
       "System testing and deployment"
     ]
   },
@@ -27,7 +26,7 @@
     "title": "Tools",
     "Familiar" :{
       "title": "Familiar with",
-      "data_list": ["Java", "Java RMI", "Spring", "Spring Data JPA", "Spring MVC", "Hibernate", "Javascript", "Git", "Node.js", "React", "Redux", "jQuery", "Bootstrap", "RESTful API", "OOP"]
+      "data_list": ["Node.js","Java", "Java RMI", "Spring", "Spring Data JPA", "Spring MVC", "Hibernate", "Javascript", "Git", "NPM", "React", "Redux", "jQuery", "Bootstrap", "RESTful API", "OOP"]
     },
     "Knowledge" :{
       "title": "Knowledge of",
